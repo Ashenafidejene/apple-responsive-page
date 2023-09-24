@@ -12,18 +12,17 @@ const Header = () => {
             ☰
           </button>
           <a className="navbar-brand mx-auto" href="#"><img src={logoIcon} alt="Logo" /></a>
-
           <div className="navbar-collapse collapse">
             <ul className="navbar-nav nav-justified w-100 nav-fill">
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/mac/">Mac</a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">iPhone</a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">iPad</a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">Watch</a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">TV</a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">Music</a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">Support</a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/search/"><img src={searchIcon} alt="Search" /></a></li>
-              <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/cart/"><img src={cartIcon} alt="Cart" /></a></li>
+              <Navigation urlLink="/mac" urlName="Mac" flag="true" />
+              <Navigation urlLink="/iPhone" urlName="iPhone" flag="true"/>
+              <Navigation urlLink="/iPad" urlName="iPad" flag="true" />
+              <Navigation urlLink="/Watch" urlName="Watch" flag="true" />
+              <Navigation urlLink="/TV" urlName="TV" flag="true" />
+              <Navigation urlLink="/Music" urlName="Music" flag="true" />
+              <Navigation urlLink="/Support" urlName="Support" flag="true" />
+              <Navigation urlLink="/search/" pic={searchIcon} urlName="Search"/>
+              <Navigation urlLink="/Cart" pic={cartIcon} urlName="Cart"/>
             </ul>
           </div>
         </nav>
