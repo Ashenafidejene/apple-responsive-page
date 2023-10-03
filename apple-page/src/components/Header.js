@@ -2,7 +2,7 @@ import React from 'react';
 import searchIcon from './images/icons/search-icon-sm.png';
 import cartIcon from './images/icons/cart-sm.png';
 import logoIcon from './images/icons/logo-sm.png';
-
+import Navigation from './js/Navigation';
 const Header = () => {
   return (
     <div className="nav-wrapper fixed-top">

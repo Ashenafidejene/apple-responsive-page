@@ -1,24 +1,24 @@
 import React from 'react'
 
-const Section = () => {
+const Section = (props) => {
     return (
         <div>
       <div className="container">
           
       <div className="new-alert">
-        {this.props.New}
+        {props.New}
       </div>
   
-      <div className={`title-wraper bold ${this.props.Black}`}>
-        {this.props.Title}
+      <div className={`title-wraper bold ${props.Black}`}>
+        {props.Title}
       </div> 
   
-      <div className={`description-wrapper ${this.props.Black}`}>
-        {this.props.description}
+      <div className={`description-wrapper ${props.Black}`}>
+        {props.description}
       </div>
   
-      <div className={`price-wrapper ${this.props.grey}`}>
-        {this.props.price}
+      <div className={`price-wrapper ${props.grey}`}>
+        {props.price}
       </div>
       <div className="links-wrapper">
         <ul>

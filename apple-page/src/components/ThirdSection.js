@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Section from './js/Section'
 const ThirdSection = () => {
 	return (
 		<section className="third-hightlight-wrapper">
