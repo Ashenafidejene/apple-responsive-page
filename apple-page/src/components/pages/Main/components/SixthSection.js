@@ -1,5 +1,5 @@
-import arcade from './images/icons/arcade.png'
-import Section2 from './js/Section2'
+import arcade from '../../../images/icons/arcade.png'
+import Section2 from '../js/Section2'
 const SixthSection = () => {
     return (
         <section className="sixth-heghlight-wrapper">

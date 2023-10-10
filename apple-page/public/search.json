@@ -1,0 +1,182 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "AsxnBT1nXQLZ9yO-bJWjr5TG9Aw",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "ET",
+    "pageInfo": {
+      "totalResults": 201,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "wzmfBtcawAJO0CsqXP0bxBqDIHQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "rayRgPVWL_A"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-23T02:29:59Z",
+          "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+          "title": "The new iPhone 15 Pro. Made with aerospace-grade titanium. #Shorts",
+          "description": "Learn all the exciting news that makes this the most impressive iPhone lineup ever and find a new iPhone 15 that's right for you.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/rayRgPVWL_A/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rayRgPVWL_A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rayRgPVWL_A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apple",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-23T02:29:59Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "D9i1jQTyuyfDL-esGdvotcygo2A",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "E3fRQSWQW6U"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-23T02:29:52Z",
+          "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+          "title": "Meet the new iPhone 15 family. #Shorts",
+          "description": "Learn all the exciting news that makes this the most impressive iPhone lineup ever and find a new iPhone 15 that's right for you.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/E3fRQSWQW6U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/E3fRQSWQW6U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/E3fRQSWQW6U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apple",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-23T02:29:52Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "x-FEDT9Y1aNj9gHU9OoVVo5IeFg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "lWY-56dakzI"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-23T02:29:55Z",
+          "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+          "title": "The next generation of portraits on iPhone 15. #Shorts",
+          "description": "Learn all the exciting news that makes this the most impressive iPhone lineup ever and find a new iPhone 15 that's right for you.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/lWY-56dakzI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/lWY-56dakzI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/lWY-56dakzI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apple",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-23T02:29:55Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "ZCfWgKsIH46WKsuSMMCBNppKf2Q",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "w_JEezynhrc"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-15T04:31:13Z",
+          "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+          "title": "iPhone 15 Pro | Titanium | Apple",
+          "description": "Might meets light. Introducing the new titanium iPhone 15 Pro. Featuring a whole new level of gaming performance with the A17 ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/w_JEezynhrc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/w_JEezynhrc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/w_JEezynhrc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apple",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-15T04:31:13Z"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "FKQyoBkMyOGiwUOAR7Ps_DwW3_I",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "b19w5cHUnPg"
+        },
+        "snippet": {
+          "publishedAt": "2023-09-12T19:07:31Z",
+          "channelId": "UCE_M8A5yxnLfW0KghEeajjw",
+          "title": "iPhone + Apple Watch | Another Birthday | Apple",
+          "description": "Real survivors get to celebrate a birthday they thought they'd never have thanks to iPhone features like Emergency SOS via ...",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/b19w5cHUnPg/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/b19w5cHUnPg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/b19w5cHUnPg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Apple",
+          "liveBroadcastContent": "none",
+          "publishTime": "2023-09-12T19:07:31Z"
+        }
+      }
+    ]
+    }

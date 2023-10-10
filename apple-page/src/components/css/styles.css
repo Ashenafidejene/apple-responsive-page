@@ -36,8 +36,18 @@ img {
 	text-align: left !important;
 	padding: 4px 0;
 	border-bottom: 1px solid #4b4b4b;
+	padding-left: 10%;
+	padding-right: 10%;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
 }
-
+.a{
+	color: gray;
+   filter: invert(50%);
+}
+.a:hover{
+	filter: invert(10%);
+}
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;

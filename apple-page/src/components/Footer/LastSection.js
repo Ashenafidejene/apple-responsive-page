@@ -1,6 +1,29 @@
-import flag from './images/icons/16.png'
-const LastSection = () => {
+
+import React, { Component } from 'react'
+import flag from '../images/icons/16.png'
+import { useEffect } from 'react'
+const  LastSection = ()=> {
+    useEffect(()=>{
+     return()=>{
+        function test(element) {
+            if (window.innerWidth <= 760) {
+              if (element.style.display === 'none' || element.style.display === '') {
+                element.style.display = 'block';
+              } else {
+                element.style.display = 'none';
+              }
+            }
+          }
+          var h3 = document.querySelectorAll('.h3');
+          for (var i = 0; i < h3.length; i++) {
+            h3[i].addEventListener('click', function() {
+              test(this.nextElementSibling);
+            });
+          }
+     }
+    },[])
   return (
+
     <footer className="footer-wrapper">
     <div className="container"> 
         <div className="upper-text-container">
@@ -11,7 +34,7 @@ const LastSection = () => {
         </div>
         <div className="footer-links-wrapper row"> 
             <div className="links-wrapper-1 col-sm-12 col-md">
-                <h3>Shop and Learn</h3>
+                <h3 className='h3'>Shop and Learn</h3>
                 <ul>
                     <li><a href="#">Mac</a></li>
                     <li><a href="#">iPad</a></li>
@@ -27,7 +50,7 @@ const LastSection = () => {
                 </ul>
             </div> 
             <div className="links-wrapper-2 col-sm-12 col-md">
-                <h3>Services</h3>
+                <h3 className='h3'>Services</h3>
                 <ul>
                     <li><a href="#">Apple Music</a></li>
                     <li><a href="#">Apple News+</a></li>
@@ -36,7 +59,7 @@ const LastSection = () => {
                     <li><a href="#">Apple Card</a></li>
                     <li><a href="#">iCloud</a></li>
                 </ul>
-                <h3>Account</h3>
+                <h3 className='h3'>Account</h3>
                 <ul>
                     <li><a href="#">Manage Your Apple ID</a></li>
                     <li><a href="#">Apple Store Account</a></li>
@@ -44,7 +67,7 @@ const LastSection = () => {
                 </ul>					
             </div> 
             <div className="links-wrapper-3 col-sm-12 col-md">
-                <h3>Apple Store</h3>
+                <h3 className='h3'>Apple Store</h3>
                 <ul>
                     <li><a href="#">Find a Store</a></li>
                     <li><a href="#">Genius Bar</a></li>
@@ -60,30 +83,30 @@ const LastSection = () => {
                 </ul>
             </div>  
             <div className="links-wrapper-4 col-sm-12 col-md">
-                <h3>For Business</h3>
+                <h3 className='h3'>For Business</h3>
                 <ul>
                     <li><a href="#">Apple and Business</a></li>
                     <li><a href="#">Shop for Business</a></li>
                 </ul>		
-                <h3>For Education</h3>
+                <h3 className='h3'>For Education</h3>
                 <ul>
                     <li><a href="#">Apple and Education</a></li>
                     <li><a href="#">Shop for College</a></li>
                 </ul>
-                <h3>For Healthcare</h3>
+                <h3 className='h3'>For Healthcare</h3>
                 <ul>
                     <li><a href="#">Manage Your Apple ID</a></li>
                     <li><a href="#">Apple Store Account</a></li>
                     <li><a href="#">iCloud.com</a></li>
                 </ul>	
-                <h3>For Government</h3>
+                <h3 className='h3'>For Government</h3>
                 <ul>
                     <li><a href="#">Apple and Education</a></li>
                     <li><a href="#">Shop for College</a></li>
                 </ul>
             </div> 
             <div className="links-wrapper-5 col-sm-12 col-md">
-                <h3>Apple Values</h3>
+                <h3 className='h3'>Apple Values</h3>
                 <ul>
                     <li><a href="#">Find a Store</a></li>
                     <li><a href="#">Genius Bar</a></li>
@@ -92,7 +115,7 @@ const LastSection = () => {
                     <li><a href="#">Field Trip</a></li>
                     <li><a href="#">Apple Store App</a></li>
                 </ul>
-                <h3>About Apple</h3>
+                <h3 className='h3'>About Apple</h3>
                 <ul>
                     <li><a href="#">Find a Store</a></li>
                     <li><a href="#">Genius Bar</a></li>
@@ -128,4 +151,5 @@ const LastSection = () => {
   )
 }
 
-export default LastSection
+
+export default LastSection;

@@ -1,6 +1,5 @@
 import React from 'react'
-import Section2 from './js/Section2'
-import Section from './js/Section'
+import Section2 from '../js/Section2'
 const FourthSection = () => {
     return (
         <section className="fourth-heghlight-wrapper">

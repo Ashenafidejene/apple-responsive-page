@@ -1,8 +1,7 @@
-import AppleTvIcon from './images/icons/apple-tv-logo.png'
-import banker from './images/home/banker.png'
-import watch from './images/icons/watch-series5-logo.png'
-import Section from './js/Section'
-import Section2 from './js/Section2'
+import AppleTvIcon from '../../../images/icons/apple-tv-logo.png'
+import banker from '../../../images/home/banker.png'
+import watch from '../../../images/icons/watch-series5-logo.png'
+import Section2 from '../js/Section2'
 const FifthSection = () => {
     return (
 		<section className="fifth-heghlight-wrapper">
