@@ -18,6 +18,7 @@ import Support from './components/pages/support/Support';
 import Tv from './components/pages/tv/Tv';
 import Watch from './components/pages/watch/Watch';
 import Product from './components/pages/iphone/Product';
+import AboutMe from './components/pages/AboutMe/AboutMe';
 import { Routes,Route } from 'react-router-dom';
 
 const App = ()=>{
@@ -39,6 +40,7 @@ const App = ()=>{
     <Route path="/support" element={<Support/>}/>
     <Route path="/tv" element={<Tv/>}/>
     <Route path="/watch" element={<Watch/>}/>
+    <Route  path="/AboutMe" element={<AboutMe/>}/>
     </Routes> 
     <LastSection/>
     </div>

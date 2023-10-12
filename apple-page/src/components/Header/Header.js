@@ -26,6 +26,7 @@ const Header=()=> {
                 <Navigation urlLink="/tv" urlName="TV" flag="true" />
                 <Navigation urlLink="/music" urlName="Music" flag="true" />
                 <Navigation urlLink="/support" urlName="Support" flag="true" />
+                <Navigation urlLink="/AboutMe" urlName="About Me" flag="true" />
                 <Navigation urlLink="/search/" pic={searchIcon} urlName="Search"/>
                 <Navigation urlLink="/cart" pic={cartIcon} urlName="Cart"/>
               </Nav>

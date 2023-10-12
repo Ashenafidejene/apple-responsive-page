@@ -421,3 +421,33 @@ img {
 		margin-top: 10px;
 	}	
 }
+/* ----------------this for about me ------------------ */
+.name{
+	color: black;
+	text-align: left;
+	padding-bottom: 30px;
+	opacity: 0.5;
+}
+.name:hover{
+	opacity: 1;
+}
+.par {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #333;
+	margin-bottom: 20px;
+	text-align: justify;
+  }
+  .par::first-letter {
+	font-size: 24px;
+	font-weight: bold;
+	color: #555;
+	float: left;
+	margin-right: 5px;
+  }
+  .about{
+   /* background-color: 	#f5f5f7; */
+   margin: 0;
+   padding: 0;
+  }
