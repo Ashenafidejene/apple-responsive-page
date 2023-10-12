@@ -3,25 +3,29 @@ import React, { Component } from 'react'
 import flag from '../images/icons/16.png'
 import { useEffect } from 'react'
 const  LastSection = ()=> {
-    useEffect(()=>{
-     return()=>{
-        function test(element) {
-            if (window.innerWidth <= 760) {
-              if (element.style.display === 'none' || element.style.display === '') {
-                element.style.display = 'block';
-              } else {
-                element.style.display = 'none';
-              }
+    useEffect(() => {
+        function handleClick() {
+          const element = this.nextElementSibling;
+          if (window.innerWidth <= 760) {
+            if (element.style.display === 'none' || element.style.display === '') {
+              element.style.display = 'block';
+            } else {
+              element.style.display = 'none';
             }
           }
-          var h3 = document.querySelectorAll('.h3');
-          for (var i = 0; i < h3.length; i++) {
-            h3[i].addEventListener('click', function() {
-              test(this.nextElementSibling);
-            });
-          }
-     }
-    },[])
+        }
+    
+        const h3Elements = document.querySelectorAll('.h3');
+        h3Elements.forEach((h3) => {
+          h3.addEventListener('click', handleClick);
+        });
+    
+        return () => {
+          h3Elements.forEach((h3) => {
+            h3.removeEventListener('click', handleClick);
+          });
+        };
+      }, []);
   return (
 
     <footer className="footer-wrapper">
