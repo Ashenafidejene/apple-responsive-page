@@ -427,6 +427,12 @@ img {
 	text-align: left;
 	padding-bottom: 30px;
 	opacity: 0.5;
+	/*color: blue;  Change the color to your desired color */
+	font-family: 'Arial', sans-serif; /* Change the font family to your desired font */
+	font-size: 24px; /* Change the font size to your desired size */
+	text-transform: uppercase; /* Convert the text to uppercase */
+	letter-spacing: 2px; /* Add spacing between letters */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
 }
 .name:hover{
 	opacity: 1;
