@@ -39,6 +39,9 @@ const Product = () => {
                   <div key={id} className="bottom-100">
                     <div className="row justify-content-center text-center bottom-50">
                       <div className="col-12">
+                        <br/>
+                        <br/>
+                        <br/>
                         <div className="title-wraper bold">{title}</div>
                         <div className="brief-description">{Brief}</div>
                       </div>
