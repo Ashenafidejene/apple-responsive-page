@@ -2,7 +2,7 @@ import React from 'react'
 import Test from '../Test'
 const Cart = () => {
   return (
-     <Test page="Cart Page"/>
+     <Test page="Your bag is empty"/>
   )
 }
 export default Cart

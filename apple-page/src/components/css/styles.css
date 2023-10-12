@@ -400,6 +400,11 @@ img {
 		background-image: url("../images/home/ipodPronew.jpg");
 		min-height: 692px;
 	}	
+	.mac_warpper-hightlight-wrapper ,.mac_warpper-hightlight-wrapper-second,.ipad_warpper-hightlight-wrapper,.ipad_warpper-hightlight-wrapper-second,.watch_warpper-hightlight-wrapper{
+		min-height: 692px;
+		background-position: 50% calc(100% - 10px); 
+	}
+
 	.ipod-caption {
 	  padding-top: 415px;
 	}	
@@ -456,4 +461,139 @@ img {
    /* background-color: 	#f5f5f7; */
    margin: 0;
    padding: 0;
+  }
+  /* -----------------------for mac page -------------------- */
+  .mac_warpper-hightlight-wrapper {
+	background-image: url("../images/forMac/MacBookAir15'.png");
+	height: 580px;
+	background-position: 50% calc(100% - 60px); /* Adjust the vertical position here */
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	/* margin-bottom: 10px; */
+}
+.mac_warpper-hightlight-wrapper-second{
+	background-image: url("../images/forMac/Supercharged.png");
+	height: 580px;
+	background-position: 50% calc(100% - 60px); /* Adjust the vertical position here */
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+	/* margin-bottom: 10px; */
+}
+/* ---------------------- for ipad ------------------------ */
+.ipad_warpper-hightlight-wrapper{
+
+
+	background-image: url("../images/forIpad/ipad.jpg");
+	height: 580px;
+	background-position: 50% calc(100% - 60px); ; /* Adjust the vertical position here */
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-color: black;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}
+.ipad_warpper-hightlight-wrapper-second{
+	background-image: url("../images/forIpad/iPad_10th.jpg");
+	height: 580px;
+	background-position: 50% calc(100% - 60px); /* Adjust the vertical position here */
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-color:white;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}
+/* ---------------- for watch-------------------- */
+
+.watch_warpper-hightlight-wrapper{
+	background-image: url("../images/forWatch/watchNow.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  background-size: initial;
+  background-color: black;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;	
+	margin-bottom: 10px;
+}
+.red-button {
+	background-color: #e74c3c;
+	color: #fff;
+	font-size: 18px;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 60%;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .red-button:hover {
+	background-color: #c0392b;
+	color: #fff;
+	transform: scale(1.05);
+  }
+  .search-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .search-container {
+	text-align: center;
+	background-color: #fff;
+	padding: 50px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-title {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 20px;
+  }
+  
+  .search-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .search-input {
+	width: 300px;
+	height: 40px;
+	padding: 8px;
+	font-size: 16px;
+	border: none;
+	border-radius: 4px;
+	margin-right: 8px;
+  }
+  
+  .search-button {
+	background-color: #e74c3c;
+	color: #fff;
+	font-size: 14px;
+	padding: 0px 5px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-button:hover {
+	background-color: #c0392b;
+	color: #fff;
+	transform: scale(1.05);
   }
