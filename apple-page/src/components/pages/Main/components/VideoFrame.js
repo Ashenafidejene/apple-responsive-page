@@ -5,7 +5,7 @@ const VideoFrame = () => {
 
   useEffect(() => {
     fetch(
-      // "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=5&order=date&key=AIzaSyB9gyd556jphiyHoi2q1YFuNz-Z7h1Zk14"
+      // "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=5&order=date&key=[googleApi key]"
        "/search.json"
     )
       .then((response) => response.json())
