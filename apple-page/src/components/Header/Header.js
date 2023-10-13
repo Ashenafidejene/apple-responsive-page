@@ -18,7 +18,7 @@ const Header=()=> {
          <Navbar.Brand ><Link to="/"><img className='a' src={logoIcon} alt="Logo" /></Link></Navbar.Brand>
          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
          <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="d-flex justify-content-center align-items-center w-100">
+         <Nav className="d-flex justify-content-center align-items-center w-100">
                 <Navigation urlLink="/mac" urlName="Mac" flag="true" />
                 <Navigation urlLink="/iPhone" urlName="iPhone" flag="true"/>
                 <Navigation urlLink="/iPad" urlName="iPad" flag="true" />

@@ -333,6 +333,9 @@ img {
 /*Media Query*/
 /* Footer */
 @media (max-width: 768px){
+	.button-container{
+		display: block;
+	}
 	.footer-links-wrapper ul {
 		display: none;
 	}
@@ -346,6 +349,9 @@ img {
 		padding-left: 10px;
 		position: absolute;
 		right: 25px;
+	}
+	.supportButton{
+		margin-top: 2%;
 	}
 }
 @media (min-width: 768px) {
@@ -425,6 +431,7 @@ img {
 	.footer-links-terms {
 		margin-top: 10px;
 	}	
+	
 }
 /* ----------------this for about me ------------------ */
 .name{
@@ -596,4 +603,44 @@ img {
 	background-color: #c0392b;
 	color: #fff;
 	transform: scale(1.05);
+  }
+  .support{
+	background-image: url("../images/forSupport/support_page.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+    background-size:cover;
+	color: #fff;	
+	margin: 0;
+	padding: 0;
+  }
+  .headerFor{
+	font-weight: bold;
+  }
+  .supportButton{
+	background-color: rgb(252, 252, 252);
+	color: blue;
+	font-size: 14px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s, transform 0.3s;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .supportButton:hover{
+	transform: scale(1.05);
+	text-decoration: underline;
+  }
+  .button-container{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 2%;
+  }
+  .button2{
+	padding: 10px 10%;
+  }
+  .button3{
+	padding:10px 4%;
   }
